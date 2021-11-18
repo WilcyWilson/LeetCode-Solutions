@@ -37,7 +37,7 @@
 //Explanation: The only substrings that contain all five vowels also contain consonants, so there are no vowel substrings.
 
 package intern.questions;
-
+//2062
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
