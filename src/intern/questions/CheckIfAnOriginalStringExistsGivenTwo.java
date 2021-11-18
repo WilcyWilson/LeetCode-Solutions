@@ -1,6 +1,6 @@
 package intern.questions;
 
-public class NumberofEqualCountSubstrings {
+public class CheckIfAnOriginalStringExistsGivenTwo {
 
 	public static void main(String[] args) {
 		
