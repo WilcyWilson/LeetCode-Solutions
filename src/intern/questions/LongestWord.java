@@ -1,6 +1,8 @@
 package intern.questions;
 
-public class CheckIfAnOriginalStringExistsGivenTwo {
+// it is rocket.
+//Output // iiiit iiiis rocket.
+public class LongestWord {
 
 	public static void main(String[] args) {
 		
