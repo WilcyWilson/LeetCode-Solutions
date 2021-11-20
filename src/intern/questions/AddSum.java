@@ -7,11 +7,13 @@ import java.util.stream.Collectors;
 public class AddSum {
 
 	public static void main(String[] args) {
-		System.out.println(new AddSum().Sum("34567"));
+		System.out.println(new AddSum().Sum(3456));
 	}
 
-	public long Sum(String s) {
-		long add = 0;
+	public int Sum(int input) {
+		Integer a = input;
+		String s = a.toString();
+		int add = 0;
 		List<Integer> list = Arrays.stream(arrayReturn(s)).boxed().collect(Collectors.toList());
 		do {
 			add += list.get(0) * list.get((list.size() - 1));
