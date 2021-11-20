@@ -12,7 +12,6 @@ public class AddSum {
 
 	public long Sum(String s) {
 		long add = 0;
-		long temp = 0;
 		List<Integer> list = Arrays.stream(arrayReturn(s)).boxed().collect(Collectors.toList());
 		do {
 			add += list.get(0) * list.get((list.size() - 1));
@@ -22,12 +21,11 @@ public class AddSum {
 				add += list.get(0);
 				list.remove(0);
 			}
-			temp = add;
 			if (countDigit(add) > 1 && list.size() == 0) {
 				list = Arrays.stream(arrayReturn(String.valueOf(add))).boxed().collect(Collectors.toList());
 				add = 0;
 			}
-		} while (countDigit(temp) > 1);
+		} while (list.size() > 1);
 		return add;
 	}
 
