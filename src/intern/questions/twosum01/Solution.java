@@ -1,8 +1,8 @@
-package intern.questions.problems;
+package intern.questions.twosum01;
 
 import java.util.Scanner;
 
-public class TwoSum1 {
+public class Solution {
 
 	public static void main(String[] args) {
 		int n, target;
@@ -16,7 +16,7 @@ public class TwoSum1 {
 		}
 		System.out.print("Enter the target: ");
 		target = sc.nextInt();
-		int[] array2 = new TwoSum1().twoSum(array, target);
+		int[] array2 = new Solution().twoSum(array, target);
 		System.out.println("The output ");
 		System.out.println("[" + array2[0] + "," + array2[1] + "]");
 	}
