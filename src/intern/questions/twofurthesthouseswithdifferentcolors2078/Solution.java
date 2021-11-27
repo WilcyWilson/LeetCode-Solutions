@@ -10,7 +10,6 @@ public class Solution {
 		System.out.println(new Solution().maxDistance(colors));
 
 	}
-// On my own
 	public int maxDistance(int[] colors) {
 		HashSet<Integer> hs = new HashSet<Integer>();
 		int max = 0;

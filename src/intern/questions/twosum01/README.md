@@ -27,7 +27,7 @@ public class Solution {
 		System.out.println("[" + array2[0] + "," + array2[1] + "]");
 	}
 
-// On my own
+
 	/*
 	public int[] twoSum(int[] nums, int target) {
 		int[] array = new int[2];
@@ -43,7 +43,6 @@ public class Solution {
 		return array;
 	}
 	*/
-	// from the internet
 	public int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];
 		HashMap<Integer, Integer> map = new HashMap<>();
